@@ -10,5 +10,5 @@
     "icons": {
       "128": "icon_128.png"
     },
-    "permissions": ["activeTab"]
+    "permissions": ["activeTab", "geolocation"]
   }
