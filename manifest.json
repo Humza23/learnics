@@ -1,14 +1,14 @@
 {
-    "name": "Weather Extension",
-    "description": "Learnics Weather",
-    "manifest_version": 2,
-    "version": "1.0",
-    "browser_action": {
-      "default_popup": "./popup.html",
-      "default_icon": "./icon_128.png"
-    },
-    "icons": {
-      "128": "icon_128.png"
-    },
-    "permissions": ["activeTab", "geolocation"]
-  }
+  "name": "Weather Extension",
+  "description": "Learnics Weather",
+  "manifest_version": 2,
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "./popup.html",
+    "default_icon": "./icon_128.png"
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": ["activeTab", "geolocation"]
+}
