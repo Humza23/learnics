@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Simple Extension</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
-</head>
-<body>
-	<form name="myform">
-		<input type="text" name="task" id="task_input" placeholder="Enter your task here" required />
-		<button type="submit" id="add_button">Add</button>
-	</form>
-	<ul id="list_task">
-	</ul>
-	<script type="text/javascript" src="main.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<p class="location">
+        <span id="text_location"> </span>
+        <sup id="text_location_country"> </sup>
+    </p>
+
+    <div class="temp">
+        <span id="text_temp"></span>
+        <sup> Celsius </sup>
+    </div>
+
+    <div class="temp_feels_like">
+        Feels like <span id="text_feelslike"></span>
+        <sup> Celsius </sup>
+    </div>
+
+    <img id="icon">
+    <p id="text_desc"> </p>
+
+
+
+  </body>
+
+  <script src="fetchData.js"></script>
 </html>
